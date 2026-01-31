@@ -1,14 +1,42 @@
-<form id="taskForm">
-  <input id="title" placeholder="Title" required />
-  <textarea id="description"></textarea>
-  <select id="status">
-    <option value="Pending">Pending</option>
-    <option value="In Progress">In Progress</option>
-    <option value="Completed">Completed</option>
-  </select>
-  <button>Add Task</button>
-</form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task Manager</title>
 
-<ul id="taskList"></ul>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
-<script src="script.js"></script>
+  <div class="container">
+    <h1>Task Manager</h1>
+
+    <form id="taskForm">
+      <input
+        type="text"
+        id="title"
+        placeholder="Task title"
+        required
+      />
+
+      <textarea
+        id="description"
+        placeholder="Task description (optional)"
+      ></textarea>
+
+      <select id="status">
+        <option value="Pending">Pending</option>
+        <option value="In Progress">In Progress</option>
+        <option value="Completed">Completed</option>
+      </select>
+
+      <button type="submit">Add Task</button>
+    </form>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
