@@ -20,11 +20,6 @@ Live Links
 - Frontend: https://taskmanagerfrontend1w.netlify.app
 - Backend API: https://task-manager-oed2.onrender.com/api/tasks
 
-API Endpoints
-- GET /api/tasks
-- POST /api/tasks
-- PUT /api/tasks/:id
-- DELETE /api/tasks/:id
 
 Backend access:
 
@@ -36,6 +31,9 @@ npm run dev
 frontend setup:
 cd frontend
 open index.html
+
+database:
+Connected mongodb atlas locally.
 
 project structure
 <img width="247" height="543" alt="image" src="https://github.com/user-attachments/assets/dde30161-96b4-4e3d-b0d5-a208e5684d96" />
