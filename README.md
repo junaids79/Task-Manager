@@ -26,13 +26,16 @@ API Endpoints
 - PUT /api/tasks/:id
 - DELETE /api/tasks/:id
 
-## Setup (Local)
-```bash
+Backend access:
+
 git clone <repo>
 cd backend
 npm install
 npm run dev
 
-Project Structure
-<img width="247" height="543" alt="image" src="https://github.com/user-attachments/assets/dde30161-96b4-4e3d-b0d5-a208e5684d96" />
+frontend setup:
+cd frontend
+open index.html
 
+project structure
+<img width="247" height="543" alt="image" src="https://github.com/user-attachments/assets/dde30161-96b4-4e3d-b0d5-a208e5684d96" />
