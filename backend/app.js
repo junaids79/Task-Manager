@@ -1,17 +1,19 @@
 const express = require("express");
 const cors = require("cors");
-const taskRoutes = require("./routes/taskRoutes"); // <-- path correct?
+
+const taskRoutes = require("./routes/taskRoutes");
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 
-// All routes
 app.use("/api/tasks", taskRoutes);
 
 app.get("/", (req, res) => {
-  res.send("API is running");
+  res.send("Task Manager API running");
 });
 
 module.exports = app;
+
+
