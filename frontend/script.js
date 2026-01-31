@@ -1,6 +1,11 @@
-const API = "https://task-manager-backend.onrender.com/api/tasks";
+const API = "https://task-manager-oed2.onrender.com/api/tasks";
+
 const list = document.getElementById("taskList");
 const form = document.getElementById("taskForm");
+
+const title = document.getElementById("title");
+const description = document.getElementById("description");
+const status = document.getElementById("status");
 
 form.onsubmit = async (e) => {
   e.preventDefault();
